@@ -298,7 +298,7 @@ const HomeCards = () => {
           className="absolute inset-0 w-full h-full"
           style={{
             backgroundImage: "url('/castem.jpg')",
-            backgroundSize: "contain",
+            backgroundSize: "cover",
             backgroundPosition: "center bottom",
             backgroundRepeat: "no-repeat",
             zIndex: -1,

@@ -6,7 +6,7 @@ const OrderPage = () => {
   const [message, setMessage] = useState("");
 
   const handleSendMessage = () => {
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=6287777158323&text=${encodeURIComponent(
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=6285726061650&text=${encodeURIComponent(
       `Nama: ${name}\nPesan: ${message}`
     )}`;
     window.open(whatsappUrl, "_blank");

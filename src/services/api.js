@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 // Membuat instance Axios
 const api = axios.create({
-  baseURL: "http://localhost:5000/",
+  baseURL: "https://andi-smiling.pakuajiindonesia.biz.id/",
   headers: {
     "Content-Type": "application/json",
   },
@@ -11,7 +11,7 @@ const api = axios.create({
 
 // Helper function untuk mendapatkan URL gambar
 const getImageURL = (path) => {
-  return `http://localhost:5000${path}`;
+  return `https://andi-smiling.pakuajiindonesia.biz.id/${path}`;
 };
 
 // Menambahkan interceptor untuk menyertakan token di setiap permintaan

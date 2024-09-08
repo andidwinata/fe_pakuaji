@@ -3,7 +3,7 @@ import ap from "../../services/api";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
-const baseURL = "http://localhost:5000";
+const baseURL = "https://andi-smiling.pakuajiindonesia.biz.id/";
 
 const Carousel = () => {
   const [slides, setSlides] = useState([]);
